@@ -1,0 +1,49 @@
+/* Page Heading */
+#sleeping-habits-heading {
+    text-align: center;
+    color: black;
+}
+
+/* Section 1 */
+.section-1 {
+    width: 100%;
+}
+
+.dual-column {
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    float: left;
+    width: 46%;
+    padding: 10px;
+    padding-left:35px;
+    padding-right: 35px;
+    height: 350px;
+    margin:30px;
+    margin-top: 5px;
+    background-color: white;
+    line-height:2;
+}
+
+.right-image {
+    background: url('../images/sleeping_habits-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 2 */
+.section-2-heading {
+    text-align: center;
+    color: black;
+}
+
+.single-column {
+    width: 91.5%;
+    height: auto;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 30px;
+    background-color: white;
+    line-height: 2;
+}

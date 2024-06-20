@@ -1,0 +1,58 @@
+/* Page Heading */
+#exercise-heading {
+    text-align: center;
+    color: black;
+}
+
+/* Section 1 */
+.section-1 {
+    width: 100%;
+}
+
+.dual-column {
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    float: left;
+    width: 46%;
+    padding: 10px;
+    padding-left:35px;
+    padding-right: 35px;
+    height: 350px;
+    margin:30px;
+    margin-top: 5px;
+    background-color: white;
+    line-height:2;
+}
+
+.right-image {
+    background: url(../images/Home+Gym+Lifestyle+image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 3 */
+.section-3 {
+    width: 100%;
+}
+
+.section-3-heading {
+    text-align: center;
+    color: black;
+}
+
+.dual-column-3 {
+    position: relative;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    float: left;
+    width: 46%;
+    padding: 10px;
+    padding-left:35px;
+    padding-right: 35px;
+    height: auto;
+    margin:30px;
+    margin-top: 5px;
+    background-color: white;
+    line-height:2;
+}

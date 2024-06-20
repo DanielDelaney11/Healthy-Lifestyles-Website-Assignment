@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/images.css">
+       
+        <!-- Browser Title -->
+        <title>Healthy Lifestyles</title>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <!-- Heading -->
+            <h1><a href="home.html">Living a Healthy Lifestyle</a></h1>
+       
+            <!-- Navigation -->
+            <nav>
+                <a href="home.html" class="menu">Home</a>
+                <a href="healthy_eating.html" class="menu">Healthy Eating</a>
+                <a href="sleeping_habits.html" class="menu">Sleeping Habits</a>
+                <a href="exercise.html" class="menu">Exercise</a>
+                <a href="other_topics.html" class="menu">Other Topics</a>
+                <a href="images.html" class="menu active">Gallery</a>
+                <a href="videos.html" class="menu">Videos</a>
+                <a href="contact.html" class="menu">Contact</a>
+            </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Page Heading -->
+            <h1 id="gallery-heading">Gallery</h1>
+
+            <!-- Section 1 -->
+            <div class="single-column">
+                <!-- Image Slideshow -->
+                <div class="slideshow-container">
+                    <!-- Image 1 -->
+                    <div class="mySlides fade">
+                        <img src="images/Healthy-Eating-1.jpeg" style="width: 100%; height: 600px">
+                    </div>
+
+                    <!-- Image 2 -->
+                    <div class="mySlides fade">
+                        <img src="images/sleeping_habits-1.jpg" style="width: 100%; height: 600px;">
+                    </div>
+
+                    <!-- Image 3 -->
+                    <div class="mySlides fade">
+                        <img src="images/Home+Gym+Lifestyle+image.png" style="width: 100%; height: 600px;">
+                    </div>
+                    
+                    <!-- Image 4 -->
+                    <div class="mySlides fade">
+                        <img src="images/mental-health.jfif" style="width: 100%; height: 600px;">
+                    </div>
+                    
+                    <!-- Image 5 -->
+                    <div class="mySlides fade">
+                        <img src="images/card-3.jfif" style="width: 100%; height: 600px;">
+                    </div>
+
+                    <!-- Previous Button -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+                    <!-- Next Button -->
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Script for Image Slideshow -->
+        <script src="scripts/images.js"></script>
+    </body>
+</html>

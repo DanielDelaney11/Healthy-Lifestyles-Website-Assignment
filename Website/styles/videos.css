@@ -1,0 +1,19 @@
+/* Page Heading */
+#videos-heading {
+    text-align: center;
+    color: black;
+}
+
+/* Videos */
+.video-gallery {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: none;
+}
+
+.table-style {
+    text-align: center;
+    width: 100%;
+    border-spacing: 24px;
+}
